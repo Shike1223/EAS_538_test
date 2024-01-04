@@ -1,63 +1,18 @@
 ---
 title: "Shike Zhang"
-image: "index/4-3.jpg#pic_center"
+image: "index/4-3.png#pic_center"
 links:
-  - label: "Enter Homepage"
-    url: "Mainpage.html"
-  - label: "Github"
-    url: "https://github.com/Shike1223"
-  - label: "Linkedin"
-    url: "https://linkedin.com/in/shike-zhang-2a71b6262/"
-  - label: "Twitter"
-    url: "https://twitter.com/zhangsk1223"
+  - label: "Labs"
+    url: "Labs.html"
+  - label: "Lectures"
+    url: "Lectures.html"
+  - label: "Office Hour"
+    url: "Office_Hour.html"
     
 output:
   postcards::jolla
 ---
  
-I am broadly interested in applying numerical methods to ecological and
-environmental problems. I have just achieved my Bachelor degree in Environmental
-Science from Tongji University. I am now living in Shanghai, China and going to 
-study in U-M SEAS PhD program.
+The field of natural resources, sustainability, and the environment increasingly relies on quantitative methods to better understand systems, test hypotheses, and find solutions to real-world issues. As a result, having a solid grasp of statistical analyses is crucial for anyone working in these fields. This course is designed to provide an introduction to applied statistics, with a focus on practical applications rather than the mathematical foundations of statistical techniques. Additionally, you will be introduced to R, one of the most commonly used statistical programming languages. It is worth noting that there are no prerequisites for taking this course, and we will guide you through the process of installing R during the first lab. The course includes a range of learning mechanisms, namely readings, lectures, class participation, labs, quizzes, problem sets, and the final exam. The required course textbook will serve as the primary source for readings, while supplementary materials can be found on the course's Canvas website.
 
-<!--ChatBox Starts-->
- <script src="https://formspree.io/js/formbutton-v1.min.js" defer></script>
-  <script>
-    window.formbutton=window.formbutton||function(){(formbutton.q=formbutton.q||[]).push(arguments)};
-    formbutton("create", {fields: [{
-      name: "name",
-      type: "text",
-      label: "Your Name",
-      required: true,
-    },
-    {
-      name: "email",
-      type: "email",
-      label: "Your Email",
-      required: true
-    },
-    {
-      name: "Message",
-      type: "textarea"
-    },
-    {
-      type: "submit"
-    }],
-    styles: {
-      fontFamily:'"Lato", sans-serif',
-      button: {
-        background: "#000000"
-      },
-      description: {
-        background: "#000000"
-      },
-      title: {
-        background: "#000000",
-        letterSpacing: "0.05em",
-        textTransform: "uppercase"
-      }
-    },
-    description: "I'll get back to you as soon as possible.",
-    action: "https://formspree.io/xnqwkyad"})
-  </script>
-  <!--ChatBox Ends-->
+

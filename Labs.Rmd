@@ -1,0 +1,26 @@
+---
+title: "Shike Zhang"
+date: "`r Sys.Date()`"
+output:
+  rmdformats::robobook:
+    self_contained: true
+thumbnails: true
+lightbox: true
+gallery: false
+highlight: tango
+
+---
+```{r setup, include=FALSE}
+## Global options
+knitr::opts_chunk$set(cache = TRUE)
+```
+
+```{r, results='asis', echo=FALSE}
+
+html_files <- list.files(path = "labs", pattern = "\\.html$")
+
+for(file in html_files) {
+  file_link = paste0('labs/', file)
+  cat('- [', file, '](', file_link, ')\n')
+}
+```

@@ -1,0 +1,39 @@
+---
+title: "Lab 0: Getting started"
+date: today
+format: html
+embed-resources: true
+dpi: 300
+editor: visual
+editor_options: 
+  chunk_output_type: console
+---
+
+Note: We do not meet for labs this week.
+
+## Reading
+
+Read the article on the [stereotype threat](https://dynamicecology.wordpress.com/2014/04/28/stereotype-threat-a-summary-of-the-problem/).
+
+## R and RStudio
+
+Download and install [R](https://www.r-project.org/) and [RStudio](https://www.rstudio.com/) on whatever computer you would like to work on. If you are having trouble installing R or RStudio, please Google or talk to GSIs.
+
+## swirl
+
+R package [swirl](https://swirlstats.com/) teaches you R programming and data science interactively, at your own pace, and right in the R console! To install it, please type the following in your R console:
+
+```{r}
+#| eval: false
+install.packages('swirl')
+```
+
+To use it, first load the swirl package/library.
+
+```{r}
+library(swirl)
+```
+
+Follow all prompts. When asked which course to install, choose 1: R Programming. Please complete the following tutorials: 1. basic building blocks, 3. sequence of numbers, and 4. vectors.
+
+If you run into any problems, please post questions on Piazza or contact GSIs.
