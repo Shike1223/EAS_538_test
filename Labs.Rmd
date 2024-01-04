@@ -1,5 +1,5 @@
 ---
-title: "Shike Zhang"
+title: "EAS 538"
 date: "`r Sys.Date()`"
 output:
   rmdformats::robobook:
