@@ -1,18 +1,26 @@
 ---
 title: "EAS 538"
-image: "index/4-3.png#pic_center"
-links:
-  - label: "Labs"
-    url: "Labs.html"
-  - label: "Lectures"
-    url: "Lectures.html"
-  - label: "Office Hour"
-    url: "Office_Hour.html"
-    
+date: "`r Sys.Date()`"
 output:
-  postcards::jolla
+  rmdformats::robobook:
+    self_contained: false
+thumbnails: false
+lightbox: false
+gallery: false
+highlight: tango
+
 ---
- 
-The field of natural resources, sustainability, and the environment increasingly relies on quantitative methods to better understand systems, test hypotheses, and find solutions to real-world issues. As a result, having a solid grasp of statistical analyses is crucial for anyone working in these fields. This course is designed to provide an introduction to applied statistics, with a focus on practical applications rather than the mathematical foundations of statistical techniques. Additionally, you will be introduced to R, one of the most commonly used statistical programming languages. It is worth noting that there are no prerequisites for taking this course, and we will guide you through the process of installing R during the first lab. The course includes a range of learning mechanisms, namely readings, lectures, class participation, labs, quizzes, problem sets, and the final exam. The required course textbook will serve as the primary source for readings, while supplementary materials can be found on the course's Canvas website.
+```{r setup, include=FALSE}
+## Global options
+knitr::opts_chunk$set(cache = TRUE)
+```
 
+```{r, results='asis', echo=FALSE}
 
+html_files <- list.files(path = "labs", pattern = "\\.html$")
+
+for(file in html_files) {
+  file_link = paste0('labs/', file)
+  cat('- [', file, '](', file_link, ')\n')
+}
+```
